@@ -1,0 +1,9 @@
+.productsView {
+  position: absolute;
+  background: orange;
+  top: 12.5vh;
+  left: 20vw;
+  height: 60vh;
+  width: 80vw;
+  float: left;
+}

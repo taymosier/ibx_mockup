@@ -2,6 +2,7 @@
   "name": "ibx_paint",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://taymosier.github.io/ibx_mockup/",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.1.1",

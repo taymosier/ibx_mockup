@@ -1,0 +1,81 @@
+.homeView {
+  position: absolute;
+  top: 12.5vh;
+  left: 20vw;
+  height: 60vh;
+  width: 80vw;
+
+  float: left;
+}
+
+.homeWelcome {
+  margin: 2vh 2vw 2vh 2vw;
+}
+
+.homeWelcome h3,h4,h5 {
+  text-align: left;
+}
+
+.homeWelcome .mainWelcomeText {
+  width: 50%;
+  text-align: left;
+  float: left;
+}
+
+.mainWelcomeText p {
+  text-align: left;
+  font-size: .8rem;
+  margin: .75rem .75rem .75rem 0 ;
+}
+
+.homeWelcome .benMooreTagline{
+}
+
+.homePageLinks {
+  position: fixed;
+  height: 25vh;
+  background-color: grey;
+  clear: both;
+  bottom: 15vh;
+}
+
+.homePageLinks ul {
+  height: 100%;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
+}
+
+.homePageLinks li {
+  list-style: none;
+  float: left;
+  width: 33%;
+  background: orange;
+  height: 100%;
+}
+
+.homePageLinks li > h6 {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  font-size: .75rem;
+  padding: 2% 0 0 0;
+  vertical-align: center;
+  height: 8%;
+  background: teal;
+}
+
+.homePageLinks li > button {
+  position: left;
+  font-size: .6rem;
+}
+
+.homePageLinks p {
+  border-right: 2px solid silver;
+  margin: .5rem .5rem .5rem .75rem;
+  text-align: left;
+  font-size: .75rem;
+}
