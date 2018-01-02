@@ -5,7 +5,13 @@ import InfoComponent from './InfoComponent.jsx';
 import Sidebar from './Sidebar.jsx';
 import SocialMedia from './SocialMedia.jsx';
 import { Home } from './Views/Home.jsx';
-import { Products } from './Views/Products.jsx';
+import { Products } from './Views/Products/Products.jsx';
+import { Location } from './Views/Location.jsx';
+import { Specials } from './Views/Specials.jsx';
+import { Sundries} from './Views/Sundries.jsx';
+import { Events } from './Views/Events.jsx';
+import { ColorMatching } from './Views/ColorMatching.jsx';
+
 
 
 import './styles/App.css';

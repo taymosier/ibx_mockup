@@ -9,6 +9,9 @@
     "react-dom": "^16.1.1",
     "react-scripts": "1.0.17"
   },
+  "devDependencies": {
+    "file-loader": "0.11.2"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build_and_deploy": "npm run build && gh-pages -d build",

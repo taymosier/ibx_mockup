@@ -1,0 +1,33 @@
+.sundriesView {
+    position: absolute;
+    background: white;
+    height: 80vh;
+    top: 12.5vh;
+    left: 20vw;
+    width: 80vw;
+    float: left;
+}
+
+.sundriesView h3 {
+  font-weight: 200;
+  text-align: left;
+  width: 73.5vw;
+  padding: 1.75vh 0 1.5vh 1.5vw;
+  margin: 0 0 0 2.5vw;
+  border-bottom: 1px solid teal;
+}
+
+
+.sundriesContent {
+  width: 90%;
+  height: 75%;
+  border: 2px solid black;
+  margin: 2.5vh 0 0 3.5vw;
+}
+
+.sundriesContent p {
+  padding: 2.5% 0 0 2.5%;
+  width: 50%;
+  height: 30%;
+  text-align: left;
+}

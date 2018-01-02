@@ -1,9 +1,102 @@
 .productsView {
   position: absolute;
-  background: orange;
+  background: white;
   top: 12.5vh;
   left: 20vw;
-  height: 60vh;
+  height: 80vh;
   width: 80vw;
   float: left;
+}
+
+.productsView h3 {
+  font-weight: 200;
+  text-align: left;
+  width: 73.5vw;
+  padding: 1.75vh 0 1.5vh 1.5vw;
+  margin: 0 0 0 2.5vw;
+  border-bottom: 1px solid teal;
+}
+
+.searchBox {
+  width: 70vw;
+  height: 60vh;
+  margin: 2.5vh 0 0 5vw;
+}
+
+.previousButton {
+  width: 7.5vw;
+  height: 60vh;
+  float: left;
+}
+
+.previousButton img {
+  margin: 25vh 0 0 0;
+  transform: rotate(180deg);
+  height: 7.5vh;
+}
+
+.previousButton img:hover {
+  border-radius: 50%;
+  background: green;
+}
+
+.nextButton {
+  width: 7.5vw;
+  height: 60vh;
+  float: left;
+}
+
+.nextButton img{
+  margin: 25vh 0 0 0;
+  height: 7.5vh;
+}
+
+.nextButton img:hover {
+  border-radius: 50%;
+  background: green;
+}
+
+.activeProduct {
+  width: 51vw;
+  padding: 0vh 0 0 3vw;
+  height: 60vh;
+  float: left;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+.activeProduct h1 {
+  position: absolute;
+  border-bottom: 3px solid silver;
+  margin: 10vh 0 0 0;
+  padding: 0 0 4vh 0;
+  font-weight: 200;
+  float: left;
+  vertical-align: center;
+  width: 30vw;
+  height: 10vh;
+}
+
+.activeProduct img {
+  position: absolute;
+  padding: 0vh 0 0 0;
+  margin: 15vh 0 0 4.5vw;
+  width: 20vw;
+  float: left;
+}
+
+.activeProduct p {
+  position: absolute;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  float: left;
+  margin: 27vh 0 0 0 ;
+  padding: 0vh 0 0 .75vw;
+  text-align: left;
+  font-family: 'Bookman';
+  font-size: 1.15rem;
+  width: 30vw;
+  height: 17.5vh;
+  border-bottom: 2px solid silver;
 }

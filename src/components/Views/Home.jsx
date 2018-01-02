@@ -10,7 +10,7 @@ export class Home extends Component {
     return(
       <div className="homeView">
         <div>
-          <img src="\..\..\assets\homeAssets\banner.jpg" height="203px" width="733px" alt="Benjamin Moore Paints" />
+          <img src={require("assets/homeAssets/banner.jpg")} height="203px" width="733px" alt="Benjamin Moore Paints" />
 
           <div className="homeWelcome">
             <h4>Welcome!</h4>

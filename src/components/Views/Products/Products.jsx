@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import '../styles/products.css';
+import SearchBox from './SearchBox.jsx';
+import '../../styles/products.css';
 
 
 export class Products extends Component {
@@ -8,9 +9,12 @@ export class Products extends Component {
   }
 
   render(){
+
+
     return(
       <div className="productsView">
-        Hello
+        <h3>Products</h3>
+        <SearchBox />
       </div>
     );
   }

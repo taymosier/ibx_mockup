@@ -1,0 +1,24 @@
+.colorMatchingView {
+  position: absolute;
+  background: white;
+  top: 12.5vh;
+  left: 20vw;
+  height: 80vh;
+  width: 80vw;
+  float: left;
+}
+
+.colorMatchingView h3 {
+  font-weight: 200;
+  text-align: left;
+  width: 72.5vw;
+  padding: 1.75vh 0 1.5vh 1.5vw;
+  margin: 0 0 0 2.5vw;
+  border-bottom: 1px solid teal;
+}
+
+.colorMatchingView img {
+  height: 50vh;
+  width: 50vw;
+  border: 2px solid black;
+}

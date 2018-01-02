@@ -1,0 +1,18 @@
+.locationView {
+    position: absolute;
+    background: white;
+    height: 80vh;
+    top: 12.5vh;
+    left: 20vw;
+    width: 80vw;
+    float: left;
+}
+
+.locationView h3 {
+  font-weight: 200;
+  text-align: left;
+  width: 73.5vw;
+  padding: 1.75vh 0 1.5vh 1.5vw;
+  margin: 0 0 0 2.5vw;
+  border-bottom: 1px solid teal;
+}

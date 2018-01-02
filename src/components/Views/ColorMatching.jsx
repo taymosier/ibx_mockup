@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../styles/colorMatching.css';
 
 
-export default class colorMatching extends Component {
+export class ColorMatching extends Component {
   constructor(props) {
     super(props);
   }
@@ -10,7 +10,8 @@ export default class colorMatching extends Component {
   render(){
     return(
       <div className="colorMatchingView">
-
+        <h3>Color Matching</h3>
+        <img src="./assets/colorMatchingAssets/creepykid.jpg" alt="colormatching image"></img>
       </div>
     );
   }

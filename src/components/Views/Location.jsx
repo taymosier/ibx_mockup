@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../styles/location.css';
 
 
-export default class Location extends Component {
+export class Location extends Component {
   constructor(props) {
     super(props);
   }
@@ -10,7 +10,7 @@ export default class Location extends Component {
   render(){
     return(
       <div className="locationView">
-
+        <h3>Location</h3>
       </div>
     );
   }
