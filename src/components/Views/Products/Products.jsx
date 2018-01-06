@@ -13,6 +13,7 @@ export class Products extends Component {
 
     return(
       <div className="productsView">
+        <img src={require("assets/productsAssets/banner.jpg")} height="203px" width="733px" alt="Benjamin Moore Paints" />
         <h3>Products</h3>
         <SearchBox />
       </div>

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import MenuItem from './MenuItem.jsx';
-import './styles/menu.css';
 import { passSelectedViewToSidebar } from './functions/appFunctions.js';
 
 export class Menu extends Component {

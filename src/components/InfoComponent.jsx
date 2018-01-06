@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './styles/infoComponent.css';
+// import './styles/infoComponent.css';
 
 export default class InfoComponent extends Component {
   render(){

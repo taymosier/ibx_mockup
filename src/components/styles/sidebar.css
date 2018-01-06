@@ -1,0 +1,75 @@
+.sidebar {
+  position: absolute;
+  left: 3.5vw;
+  padding: 0;
+  top: 7.5vh;
+  height: 87.5vh;
+  width:  16.5vw;
+  background: #008080;
+  border: 1px solid red;
+}
+
+.sidebar .menuUL {
+  margin: 0 0 1vh 0;
+  padding: 0 1vw 2vh 1vw;
+  font-size: .9rem;
+  background: #47423f;
+  text-align: left;
+  width: 100%;
+  height: 20vh;
+  width: 14.5vw;
+  border: 1px dotted white;
+
+}
+
+.sidebar .menuUL li {
+  list-style-type: none;
+  padding: 0 0 .25vh 0;
+  border-bottom: 1px solid gold;
+  margin: 1vh 0 1vh 0;
+}
+
+.sidebar .menuUl li:last-child {
+  margin: 0 0 1vh 0;
+}
+
+.sidebar .infoComponentBox{
+  border: 1px dotted white;
+  background: #47423f;
+  font-size: .7rem;
+  padding: 1vh 0 1vh 0;
+}
+
+.sidebar .sidebarBlurb {
+  border: 1px dotted white;
+  background: #47423f;
+  padding: 1vh 0 1vh 0;
+  font-size: .6rem;
+}
+
+.sidebar .sidebarBlurb h5 {
+  text-align: center;
+}
+
+.sidebar .sidebarBlurb p {
+  text-align: left;
+}
+
+.sidebar .socialMedia {
+  border: 1px dotted white;
+  background: #47423f;
+}
+
+.sidebar .socialMedia ul {
+
+}
+
+.sidebar .socialMedia ul li {
+  list-style-type: none;
+  margin: .5vh 0 .5vh 0;
+}
+
+.sidebar .socialMedia li img {
+  height: 7vh;
+  width: 7vw;
+}

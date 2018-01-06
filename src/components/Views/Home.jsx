@@ -9,9 +9,10 @@ export class Home extends Component {
   render(){
     return(
       <div className="homeView">
-        <div>
-          <img src={require("assets/homeAssets/banner.jpg")} height="203px" width="733px" alt="Benjamin Moore Paints" />
-
+        <div className="homeContent">
+          <div className="homeBanner">
+            <img src={require('assets/homeAssets/banner.jpg')} alt="homeBannerImage" />
+          </div>
           <div className="homeWelcome">
             <h4>Welcome!</h4>
             <h5>Serving Greenville, NC and the beautiful Inner Banks since 2008.</h5>
@@ -21,7 +22,7 @@ export class Home extends Component {
               <p>Come see us and let us make painting fun again!</p>
             </div>
             <div className="benMooreTagline">
-              {/* <img></img> */}
+              <img src={require("assets/homeAssets/bmhomelogo.png")} alt />
               <p>"Your space, your style, your Benjamin Moore. Everything you need to create an environment that you love."</p>
             </div>
           </div>
@@ -30,19 +31,19 @@ export class Home extends Component {
             <ul>
               <li>
                 <h6>Benjamin Moore Products</h6>
-                <img src="" alt="pourImage"></img>
+                <img  src={require("assets/homeAssets/pour.jpg")} alt="pourImage" />
                 <p>We offer a complete line of Benjamin Moore® products for virtually every project you have. From surface preparation products, to a wide array of coatings in sheens and formulas for every requirement. Whatever the job demands, we have what you need.</p>
                 <button>Learn More</button>
               </li>
               <li>
                 <h6>Colorful Chalkboard Paint</h6>
-                <img src="" alt="chalkImage"></img>
+                <img src={require("assets/homeAssets/chalk.jpg")} alt="chalkImage"></img>
                 <p>Turn any surface into a washable, erasable chalkboard―in any color! See fun and easy chalkboard paint ideas for your home.</p>
                 <button>Get Ideas</button>
               </li>
               <li>
                 <h6>Color Trends 2018</h6>
-                <img src="" alt="trendImage"></img>
+                <img src={require("assets/homeAssets/trend.jpg")} alt="trendImage"></img>
                 <p>Benjamin Moore’s Color of the Year, Caliente AF-290, is strong, radiant and full of energy.</p>
                 <button>View Colors</button>
               </li>

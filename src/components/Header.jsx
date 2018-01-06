@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './styles/header.css';
 
 export default class Header extends Component {
   constructor(props){
@@ -7,7 +8,14 @@ export default class Header extends Component {
 
   render(){
     return(
-      <div className="header"><h1>Header</h1></div>
+      <div className="header">
+        <div className="bmlogo">
+          <img src={require('assets/bmlogo.png')} alt="bmlogoImage" />
+        </div>
+        <div className="ibxlogo">
+          <img src={require('assets/ibxlogo.png')} alt="ibxlogoImage" />
+        </div>
+      </div>
     );
   }
 }

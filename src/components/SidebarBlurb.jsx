@@ -8,9 +8,9 @@ export default class SidebarBlurb extends Component {
 
   render(){
     return(
-      <div>
+      <div className="sidebarBlurb">
         <h5>Is It Still Paint</h5>
-        <p>Sociable on as carriage my position weddings raillery consider. Peculiar trifling absolute and wandered vicinity property yet. The and collecting motionless difficulty son. </p>
+        <p>Technology isn’t something most people think of when it comes to paint, but at Benjamin Moore we’re constantly working to develop products that solve problems and make you rethink what paint can do. Since Benjamin Moore paint goes so far beyond your expectations of paint, it kind of makes you wonder...is it still paint?</p>
       </div>
     );
   }

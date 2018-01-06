@@ -5,6 +5,8 @@ import SidebarBlurb from './SidebarBlurb.jsx';
 import SocialMedia from './SocialMedia.jsx';
 import { passSelectedViewToApp } from './functions/appFunctions.js';
 
+import './styles/sidebar.css';
+
 export default class Sidebar extends Component {
   constructor(props){
     super(props);

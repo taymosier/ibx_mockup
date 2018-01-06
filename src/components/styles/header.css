@@ -1,0 +1,27 @@
+.header {
+  z-index: 2;
+  top: 0;
+  height: 7.5vh;
+  width: 100vw;
+  float: left;
+  position: absolute;
+}
+
+.header div {
+  float: left;
+  width: 50vw;
+}
+
+.header .bmlogo {
+  position: absolute;
+}
+
+.header .ibxlogo {
+  position: absolute;
+  left: 50vw;
+  text-align: right;
+}
+
+.header div img{
+
+}
