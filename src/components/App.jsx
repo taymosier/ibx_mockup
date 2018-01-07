@@ -8,6 +8,7 @@ import { setNewActiveView } from './functions/appFunctions.js';
 import './styles/App.css';
 
 // TODO
+// Adjust width of home page so that horizontal scrollbar is non-existent
 // Adjust menu button styling
 // Expand size of main home Views
 // change infoComponentBox padding top to .25vh
@@ -21,7 +22,7 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      activeView: 'Home',
+      activeView: 'Sundries',
     };
     this.setNewActiveView = setNewActiveView.bind(this);
   }

@@ -37,19 +37,19 @@ export class Home extends Component {
                 <h6>Benjamin Moore Products</h6>
                 <img src={require("assets/homeAssets/pour.jpg")} alt="pourImage" />
                 <p>We offer a complete line of Benjamin Moore® products for virtually every project you have. From surface preparation products, to a wide array of coatings in sheens and formulas for every requirement. Whatever the job demands, we have what you need.</p>
-                <button>Learn More</button>
+                <button className="productsButton">Learn More</button>
               </li>
               <li>
                 <h6>Colorful Chalkboard Paint</h6>
                 <img src={require("assets/homeAssets/chalk.jpg")} alt="chalkImage"></img>
                 <p>Turn any surface into a washable, erasable chalkboard―in any color! See fun and easy chalkboard paint ideas for your home.</p>
-                <button>Get Ideas</button>
+                <button className="chalkButton">Get Ideas</button>
               </li>
               <li>
                 <h6>Color Trends 2018</h6>
                 <img src={require("assets/homeAssets/trend.jpg")} alt="trendImage"></img>
                 <p>Benjamin Moore’s Color of the Year, Caliente AF-290, is strong, radiant and full of energy.</p>
-                <button>View Colors</button>
+                <button className="trendsButton">View Colors</button>
               </li>
             </ul>
           </div>

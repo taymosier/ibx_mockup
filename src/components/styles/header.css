@@ -1,15 +1,16 @@
 .header {
   z-index: 2;
   top: 0;
+  left: 0;
   height: 11vh;
-  width: 100vw;
+  width: 98vw;
   float: left;
   position: absolute;
 }
 
 .header div {
   float: left;
-  width: 50vw;
+  width: 49vw;
 }
 
 .header .bmlogo {
@@ -18,7 +19,7 @@
 
 .header .ibxlogo {
   position: absolute;
-  left: 50vw;
+  left: 49vw;
   text-align: right;
 }
 

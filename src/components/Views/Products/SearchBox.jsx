@@ -18,9 +18,13 @@ export default class SearchBox extends Component {
       <div className="searchBox">
         <div className="previousButton"><img src={require("assets/arrow.svg")}/></div>
         <div className="activeProduct">
-          <h1>{products[this.state.productId].name}</h1>
-          <img src={require(`assets/productsAssets/p${this.state.productId}.png`)}></img>
-          <p>{products[this.state.productId].description}</p>
+          <div className="activeProductTopColumn">
+            <h1 className="productHeader">{products[this.state.productId].name}</h1>
+            <img className="productPicture" src={require(`assets/productsAssets/p${this.state.productId}.png`)}></img>
+          </div>
+          <div className="activeProductBottomColumn">
+            <p className="productDescription">{products[this.state.productId].description}</p>
+          </div>
         </div>
         <div className="nextButton"><img src={require("assets/arrow.svg")}/></div>
       </div>
