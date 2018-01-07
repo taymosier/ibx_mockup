@@ -27,6 +27,8 @@ export default class  ActiveView extends Component {
           return <Specials />;
         case 'Events':
           return <Events />;
+        case 'Color Matching':
+          return <ColorMatching />;
         case 'Sundries':
           return <Sundries />;
         default:

@@ -7,6 +7,16 @@ import { setNewActiveView } from './functions/appFunctions.js';
 
 import './styles/App.css';
 
+// TODO
+// Adjust menu button styling
+// Expand size of main home Views
+// change infoComponentBox padding top to .25vh
+// change infoCompnentBox h5 hieght to .5vh
+// "                      " margin to .25vh 0 0 0
+// change infoCompnentBox p margin to .25vh 1vw 0 1vw
+// change homePageLinks p padding to 0 4vw 0 4vw
+// change homePageLinks p height to 15vh
+
 class App extends Component {
   constructor(props){
     super(props);

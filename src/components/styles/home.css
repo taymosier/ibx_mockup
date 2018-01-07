@@ -1,22 +1,22 @@
 .homeView {
   position: absolute;
-  top: 7.5vh;
+  top: 11vh;
   left: 20vw;
-  height: 80vh;
-  width: 80vw;
+  height: 107.5vh;
+  width: 78vw;
   float: left;
 }
 
 .homeContent  {
-  width: 77vw;
-  height: 85vh;
+  width: 75vw;
+  height: 104.5vh;
   padding: 1vh 1vw 1vh 1vw;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 .homeBanner {
-  width: 77vw;
-  height: 15vh;
+  width: 75vw;
+  height: 22.5vh;
   text-align: right;
 }
 
@@ -24,11 +24,15 @@
   height: 100%;
 }
 
+.homeLeftColumn {
+  width: 37.5vw;
+  float: left;
+}
 
 .homeWelcome  {
   /* border: 1px dotted black; */
-  width: 75vw;
-  height: 40vh;
+  width: 36.5vw;
+  height: 35vh;
   padding: 0 1vw 0 0;
 }
 
@@ -56,7 +60,7 @@
   clear: both;
   width: 33vw;
   height: 27vh;
-  margin: 0 1vw 1vh 1vw;
+  margin: 0 1vw 0 1vw;
   padding: 0 1vw 1vh 0;
   float: left;
   /* border: 1px solid red; */
@@ -66,6 +70,12 @@
   font-size: .75rem;
   letter-spacing: 1.05px;
   padding: .5vh .5vw 1vh 0;
+}
+
+.homeRightColumn {
+  width: 37.5vw;
+  float: left;
+  padding: 1.5vh 0 0 0 ;
 }
 
 .benMooreTagline {
@@ -82,52 +92,50 @@
 }
 
 .homePageLinks {
-  position: fixed;
-  height: 25vh;
+  position: relative;
+  top: .25vh;
+  height: 44vh;
   width: 77vw;
-  background-color: grey;
   clear: both;
   bottom: 7.5vh;
 }
 
 .homePageLinks ul {
   height: 100%;
-  -webkit-margin-before: 0;
-  -webkit-margin-after: 0;
-  -webkit-margin-start: 0;
-  -webkit-margin-end: 0;
-  -webkit-padding-start: 0;
+  text-align: left;
 }
 
 .homePageLinks li {
   list-style: none;
-  padding: 0 0 0 1vw;
+  border-right: 1px solid silver;
+  text-align: center;
+  padding: 0vh 0 0 1vw;
   float: left;
-  width: 33.33%;
-  background: orange;
+  width: 23.5vw;
   height: 100%;
 }
 
-.homePageLinks li > h6 {
-  -webkit-margin-before: 0;
-  -webkit-margin-after: 0;
-  -webkit-margin-start: 0;
-  -webkit-margin-end: 0;
+.homePageLinks li h6 {
   font-size: .75rem;
-  padding: 2% 0 0 0;
-  vertical-align: center;
-  height: 8%;
+  margin: .5vh 0 0 4.7vw;
+  padding: .5vh 0 0 0;
+  width: 14.1vw;
+  height: 2.5vh;
   background: teal;
+}
+
+.homePageLinks img {
+  width: 14.1vw;
+}
+
+.homePageLinks li p {
+  margin: .5rem .5rem .5rem .75rem;
+  padding: 0 4vw 0 4vw;
+  text-align: left;
+  font-size: .75rem;
 }
 
 .homePageLinks li > button {
   position: left;
   font-size: .6rem;
-}
-
-.homePageLinks p {
-  border-right: 2px solid silver;
-  margin: .5rem .5rem .5rem .75rem;
-  text-align: left;
-  font-size: .75rem;
 }
