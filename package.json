@@ -5,12 +5,14 @@
   "homepage": "https://taymosier.github.io/ibx_mockup/",
   "dependencies": {
     "gh-pages": "^1.1.0",
+    "google-maps-react": "^1.1.2",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "react-scripts": "1.0.17"
   },
   "devDependencies": {
-    "file-loader": "0.11.2"
+    "file-loader": "0.11.2",
+    "google-maps": "^3.2.1"
   },
   "scripts": {
     "start": "react-scripts start",

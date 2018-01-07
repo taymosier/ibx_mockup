@@ -17,12 +17,14 @@ import './styles/App.css';
 // change infoCompnentBox p margin to .25vh 1vw 0 1vw
 // change homePageLinks p padding to 0 4vw 0 4vw
 // change homePageLinks p height to 15vh
+// style map
+//
 
 class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      activeView: 'Sundries',
+      activeView: 'Location & Hours',
     };
     this.setNewActiveView = setNewActiveView.bind(this);
   }

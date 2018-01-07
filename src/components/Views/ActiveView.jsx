@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import { Home } from './Home.jsx';
 import { Products } from './Products/Products.jsx';
-import { Location } from './Location.jsx';
+import { Location } from './Location/Location.jsx';
 import { Specials } from './Specials.jsx';
 import { Sundries} from './Sundries.jsx';
 import { Events } from './Events.jsx';

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import '../styles/location.css';
+import MapsContainer from './MapsContainer.jsx';
+import '../../styles/location.css';
 
 
 export class Location extends Component {
@@ -11,6 +12,7 @@ export class Location extends Component {
     return(
       <div className="locationView">
         <h3>Location</h3>
+        <MapsContainer />
       </div>
     );
   }
