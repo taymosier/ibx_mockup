@@ -11,7 +11,7 @@ export class ColorMatching extends Component {
     return(
       <div className="colorMatchingView">
         <h3>Color Matching</h3>
-        <img src="./assets/colorMatchingAssets/creepykid.jpg" alt="colormatching image"></img>
+        <img src={require("../../assets/colorMatchingAssets/creepykid.jpg")} alt="colormatching image"></img>
       </div>
     );
   }

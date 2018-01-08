@@ -10,11 +10,10 @@ export class Sundries extends Component {
   render(){
     return(
       <div className="sundriesView">
-        <h3>Sundries</h3>
-        <div className="sundriesContent">
+         <div className="sundriesContent">
           <div className="sundriesContentSection">
-            <p>We carry a full line of Merit Pro Sundries, Merit Pro is a line of painting tools and accessories that was created with the highest standards, offering high quality products for a low price! We carry a wide variety of Merit Pro products to reduce your work time and provide you excellent results.</p>
-            <img src={require('assets/sundriesAssets/p1.JPG')} alt="image1"/>
+            <p className="sectionText">We carry a full line of Merit Pro Sundries, Merit Pro is a line of painting tools and accessories that was created with the highest standards, offering high quality products for a low price! We carry a wide variety of Merit Pro products to reduce your work time and provide you excellent results.</p>
+            <img className="sectionImage" src={require('assets/sundriesAssets/p1.JPG')} alt="image1"/>
           </div>
           <div className="sundriesContentSection">
             <p>We also carry a full line of Purdy Brushes and Roller Covers. they offer a broad assortment of brushes, roller covers and paint accessories. Selecting the right tools for any project is a critical step in creating an exceptional painting experience for both professional painters and do- it -yourselfers.</p>

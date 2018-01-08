@@ -6,7 +6,7 @@ import { GoogleApiWrapper } from 'google-maps-react';
 class  MapsContainer extends Component {
   render(){
     return(
-      <div className="MapsContainer">
+      <div className="mapsContainer">
         <div className="wrapper">
             <Map google={this.props.google}/>
         </div>

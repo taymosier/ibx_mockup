@@ -4,7 +4,7 @@
     height: 80vh;
     top: 12.5vh;
     left: 20vw;
-    width: 80vw;
+    width: 78vw;
     float: left;
 }
 
@@ -12,7 +12,44 @@
   font-weight: 200;
   text-align: left;
   width: 73.5vw;
-  padding: 1.75vh 0 1.5vh 1.5vw;
+  padding: 1.75vh 0 1.5vh 0vw;
   margin: 0 0 0 2.5vw;
   border-bottom: 1px solid teal;
+}
+
+.locationView .contactInfoSection {
+
+  display: inline-block;
+  vertical-align: middle;
+  width: 35vw;
+}
+
+.locationView .leftColumn {
+  z-index: 15;
+  margin: 2vh 1vw 2vh 2vw;
+  background: pink;
+  width: 27vw;
+  height: 80vh;
+  float: left;
+}
+
+.locationView .rightColumn {
+  margin: 2vh 2vw 2vh 1vw;
+  float: left;
+  background:grey;
+  width: 43vw;
+  height: 80vh;
+}
+
+.locationView .mapsContainer  {
+  width: 25vw;
+  height: 40vh;
+  margin: 10vh 0 0 0vw;
+  border-radius: 50%;
+}
+
+.locationView .mapsContainer .googleMap{
+  width: 42vw;
+  height: 40vh;
+  border-radius: 50%;
 }

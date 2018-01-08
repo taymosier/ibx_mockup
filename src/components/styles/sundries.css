@@ -20,14 +20,26 @@
 
 .sundriesContent {
   width: 90%;
-  height: 75%;
-  border: 2px solid black;
+  height: 50%;
   margin: 2.5vh 0 0 3.5vw;
 }
 
+.sundriesContentSection {
+  margin: 1% 0 0 0;
+  border: 2px solid black;
+  height: 100%;
+  width: 100%;
+}
+
 .sundriesContent p {
-  padding: 2.5% 0 0 2.5%;
-  width: 50%;
+  padding: 12.5% 2.5% 0 2.5%;
+  float: left;
+  width: 47.5%;
   height: 30%;
   text-align: left;
+}
+.sundriesContent img{
+  width: 47.5%;
+  max-height: 100%;
+  float: left;
 }

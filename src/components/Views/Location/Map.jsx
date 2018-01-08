@@ -17,9 +17,10 @@ export class Map extends Component {
 
       const mapConfig = Object.assign({}, {
         center: {lat: 35.597825, lng: -77.330829},
-        zoom: 17,
+        zoom: 16,
         gestureHandling: 'cooperative',
-        mapTypeId: 'roadmap'
+        mapTypeId: 'roadmap',
+        disableDefaultUI: true,
       });
       this.map = new maps.Map(node, mapConfig);
 
@@ -32,13 +33,13 @@ export class Map extends Component {
   }
 
   render(){
-    const style = {
-      width: '25vw',
-      height: '50vh'
-    }
+    // const style = {
+    //   width: '25vw',
+    //   height: '50vh'
+    // }
 
     return(
-        <div ref="map" style={style}>
+        <div className="googleMap" ref="map" >
           loading map...
         </div>
     );

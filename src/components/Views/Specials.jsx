@@ -11,6 +11,7 @@ export class Specials extends Component {
     return(
       <div className="specialsView">
         Specials
+        <img src={require("../../assets/specialsAssets/freepaint.png") } alt="free sample" />
       </div>
     );
   }

@@ -8,7 +8,7 @@ import { setNewActiveView } from './functions/appFunctions.js';
 import './styles/App.css';
 
 // TODO
-// Adjust width of home page so that horizontal scrollbar is non-existent
+// Adjust width of home page so that horizontal scrollbar is non-existent (adjust width of banner image)
 // Adjust menu button styling
 // Expand size of main home Views
 // change infoComponentBox padding top to .25vh
