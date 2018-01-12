@@ -3,13 +3,10 @@ import ReactDOM from 'react-dom';
 
 export class Map extends Component {
   componentDidUpdate(prevProps, prevState){
-    // if (prevProps.google !== this.props.google || prevProps.quakes !== this.props.quakes){
       this.loadMap();
-    // }
   }
 
   loadMap() {
-    // if (this.props && this.props.google ){
       const {google} = this.props;
       const maps = google.maps;
       const mapRef = this.refs.map;
@@ -29,15 +26,9 @@ export class Map extends Component {
         map: this.map,
         title: 'Inner Banks Paint and Decorating'
       });
-    // }
   }
 
   render(){
-    // const style = {
-    //   width: '25vw',
-    //   height: '50vh'
-    // }
-
     return(
         <div className="googleMap" ref="map" >
           loading map...

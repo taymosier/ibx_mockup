@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import {products} from './Products/ProductList.js';
+
 
 import { Home } from './Home.jsx';
 import { Products } from './Products/Products.jsx';
@@ -20,7 +22,7 @@ export default class  ActiveView extends Component {
         case 'Home':
           return <Home />;
         case 'Products':
-          return <Products />;
+          return <Products items={products}/>;
         case 'Location & Hours':
           return <Location />;
         case 'Specials':

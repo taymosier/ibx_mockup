@@ -1,55 +1,124 @@
 .locationView {
-    position: absolute;
-    background: white;
-    height: 80vh;
-    top: 12.5vh;
-    left: 20vw;
-    width: 78vw;
-    float: left;
+  background: white;
+  float: left;
+  height: 80vh;
+  left: 20vw;
+  position: absolute;
+  top: 12.5vh;
+  width: 76vw;
 }
 
 .locationView h3 {
+  border-bottom: 1px solid teal;
   font-weight: 200;
+  margin: 0 0 0 2.5vw;
+  padding: 1.75vh 0 1.5vh 2.5vw;
   text-align: left;
   width: 73.5vw;
-  padding: 1.75vh 0 1.5vh 0vw;
-  margin: 0 0 0 2.5vw;
-  border-bottom: 1px solid teal;
 }
 
 .locationView .contactInfoSection {
-
   display: inline-block;
   vertical-align: middle;
   width: 35vw;
 }
 
 .locationView .leftColumn {
-  z-index: 15;
-  margin: 2vh 1vw 2vh 2vw;
-  background: pink;
-  width: 27vw;
-  height: 80vh;
+  border: 2px solid red;
   float: left;
+  font-family: 'Dosis', sans-serif;
+  height: 75vh;
+  margin: 5vh 1vw 2vh 0vw;
+  padding: 0vh 1vw 1vh 0vw;
+  width: 32vw;
+  z-index: 15;
 }
 
-.locationView .rightColumn {
-  margin: 2vh 2vw 2vh 1vw;
+.locationView .leftColumn h4 {
+  font-family: 'Titillium Web', sans-serif;
+  /* font-size: 1.95rem; */
+  margin: 0 0 1vh 0;
+  text-align: center;
+  padding: 0;
+}
+
+
+.locationView .leftColumn h3 {
+  border: none;
+  font-family: 'Titillium Web', sans-serif;
+  /* font-size: 1.85rem; */
+  margin: 0;
+  max-width: 100%;
+  padding: .5vh 0 .5vh 0;
+}
+
+.locationView .leftColumn p {
+  /* font-size: 1.7rem; */
+}
+
+.locationView .hoursContainer {
+  /* border: 2px solid black; */
   float: left;
-  background:grey;
-  width: 43vw;
+  font-size: 1.35rem;
+  height: 45vh;
+  margin: 0 0 0 .5vw;
+  padding: 3vh 0 0 0;
+  text-align: center;
+  width: 15.5vw;
+}
+
+.locationView .leftColumn .hoursContainer h3 {
+  text-align: center;
+}
+
+.locationView .phoneContainer {
+  /* border: 2px solid black; */
+  float: left;
+  font-size: 1.35rem;
+  height: 43vh;
+  margin: 0 0 0 .5vw;
+  padding: 7vh 0 0 0;
+  text-align: center;
+  width: 15.5vw;
+}
+
+.locationView .leftColumn .phoneContainer h3 {
+  margin: .5vh 0 .5vh 0;
+  text-align: center;
+}
+
+.locationView .addressContainer {
+  border: 2px solid black;
+  clear: both;
+  font-size: 1.35rem;
+  height: 18vh;
+  padding: 2vh 0 0 0;
+  text-align: center;
+  width: 30vw;
+}
+
+.locationView .leftColumn .addressContainer h3 {
+  text-align: center;
+}
+
+
+.locationView .rightColumn {
+  float: left;
   height: 80vh;
+  margin: 2vh 2vw 2vh 1vw;
+  padding: 0;
+  width: 28vw;
 }
 
 .locationView .mapsContainer  {
-  width: 25vw;
-  height: 40vh;
-  margin: 10vh 0 0 0vw;
   border-radius: 50%;
+  height: 60vh;
+  margin: 6vh 0 0 0vw;
+  width: 28vw;
 }
 
 .locationView .mapsContainer .googleMap{
-  width: 42vw;
-  height: 40vh;
   border-radius: 50%;
+  height: 60vh;
+  width: 28vw;
 }

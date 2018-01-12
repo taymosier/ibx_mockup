@@ -13,29 +13,34 @@ export class Location extends Component {
       <div className="locationView">
         <h3>Location & Hours</h3>
           <div className="leftColumn">
-            <h4>Hours:</h4>
-            <br />
-            <p>Monday-Friday:</p>
-            <p>7:00am - 430pm</p>
-            <p>Saturday</p>
-            <p>8:00am - 1pm</p>
-            <br />
-            <p>Sunday</p>
-            <p>Closed</p>
-            <br />
-            <p>Phone:</p>
+            <div className="hoursContainer">
+              <h4>Hours</h4>
+              <h3>Monday-Friday:</h3>
+              <p>7:00am - 430pm</p>
+              <h3>Saturday</h3>
+              <p>8:00am - 1pm</p>
+              <h3>Sunday</h3>
+              <p>Closed</p>
+          </div>
+          <div className="phoneContainer">
+            <h4>Phone</h4>
             <p>252-758-7775</p>
             <br />
-            <p>Fax:</p>
+            <h4>Fax</h4>
             <p>252-758-7772</p>
             <br />
-            <p>Address:</p>
-            <p>2025 A Eastgate Dr</p>
-            <p>Greenville, NC 27858</p>
+          </div>
+          <div className="addressContainer">
+              <h4>Address</h4>
+              <p>2025 A Eastgate Dr</p>
+              <p>Greenville, NC 27858</p>
+          </div>
           </div>
 
           <div className="rightColumn">
-            <MapsContainer className="mapContainer"/>
+            <MapsContainer className="mapContainer" />
           </div>
-
+        </div>
+        );
+      }
 }
