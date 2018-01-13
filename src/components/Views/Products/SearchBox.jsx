@@ -12,8 +12,6 @@ export default class SearchBox extends Component {
   }
 
   render(){
-    const productList = products.map( (product) => (<div><h5>{product.name}</h5></div>) );
-    console.log(products[0]);
     return(
       <div className="searchBox">
         <div className="previousButton"><img src={require("assets/arrow.svg")}/></div>

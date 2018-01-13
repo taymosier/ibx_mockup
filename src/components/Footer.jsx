@@ -8,10 +8,10 @@ export default class Footer extends Component {
   render(){
     return(
       <div className="footer">
-        <p>2019 Benjamin Moore</p>
-        <p>Disclaimer</p>
-        <a href='#'>Privacy Policy </a>
-        <a href='#'>Terms and Conditions</a>
+        <p>@1996-2013 Benjamin Moore & Co.</p>
+        <p>Note: On-screen and printer color representations may vary from actual paint colors</p>
+        <a href='http://ibxpaint.com/home/privacy/privacy/sb.cn'>Privacy Policy </a>
+        <a href='http://ibxpaint.com/home/terms/terms/sb.cn'>Terms and Conditions</a>
       </div>
     );
   }

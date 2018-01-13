@@ -16,8 +16,6 @@
   font-size: .8rem;
   background: #47423f;
   text-align: left;
-  width: 100%;
-  height: 24vh;
   width: 14.5vw;
   /* border: 1px dotted white; */
 
@@ -33,6 +31,10 @@
   /* border-bottom: 1px solid transparent; */
   background-image: linear-gradient(left, #008080,#47423f);
   margin: .75vh 0 .5vh 0;
+}
+
+.sidebar .menuUL li:hover{
+  cursor: pointer;
 }
 
 .sidebar .menuUL li:last-child {
@@ -84,19 +86,79 @@
 .sidebar .socialMedia {
   /* border: 1px dotted white; */
   background: #47423f;
+  width: 100%;
   height: 34.75vh;
 }
 
 .sidebar .socialMedia ul {
-  padding: 2vh 0 0 0;
+  padding: 7.5% 0 0 6%;
 }
 
 .sidebar .socialMedia ul li {
+  float: left;
   list-style-type: none;
-  margin: 1vh 0 .5vh 1vw;
+  height: 70%;
+  width:40.83%;
+  margin: auto 6% auto auto;
+}
+
+.sidebar .socialMedia ul li button{
+  background: transparent;
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar .socialMedia ul li button:focus {
+  outline: 0;
 }
 
 .sidebar .socialMedia li img {
-  height: 6vh;
-  width: 3.5vw;
+  height: 100%;
+  width: 100%;
+}
+
+#fbButton{
+  height: 100%;
+  width: 100%;
+}
+
+#fbButton a{
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+#igButton {
+  height: 100%;
+  width: 100%;
+}
+
+#igButton a{
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+
+#houzzButton{
+  height: 100%;
+  width: 100%;
+}
+
+#houzzButton a{
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+#pinterestButton {
+  height: 100%;
+  width: 100%;
+}
+
+#pinterestButton a{
+  height: 100%;
+  margin: 0;
+  width: 100%;
 }

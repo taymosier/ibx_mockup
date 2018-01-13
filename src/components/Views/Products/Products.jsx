@@ -15,10 +15,6 @@ export class Products extends Component {
     this.handleChange = this.handleChange.bind(this);
   }
 
-  getInitialState(){
-      return { inputString: 'Hello' };
-  }
-
   handleChange(e){
     this.setState({ inputString: e.target.value});
 

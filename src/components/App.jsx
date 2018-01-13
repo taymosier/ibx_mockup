@@ -24,7 +24,7 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      activeView: 'Sundries',
+      activeView: 'Home',
     };
     this.setNewActiveView = setNewActiveView.bind(this);
   }
