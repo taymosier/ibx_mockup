@@ -10,7 +10,7 @@ export class Specials extends Component {
   render(){
     return(
       <div className="specialsView">
-        Specials
+        <h3>Specials</h3>
         <img src={require("../../assets/specialsAssets/freepaint.png") } alt="free sample" />
       </div>
     );
