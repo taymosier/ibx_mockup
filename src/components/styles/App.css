@@ -18,16 +18,17 @@
   /* bottom: 0; */
   top: 118vh;
   left: 10.75vw;
+  font-size: .65rem;
   position: relative;
   vertical-align: bottom;
   height: 5vh;
   width: 66vw;
-  padding: .5vh 0 0 10vw;
+  padding: .5vh 0 0 1vw;
   display: inline-flex;
 }
 
 .footer p, a {
-  margin: 0 1vw 0 3vw;
+  padding: 2%;
 }
 
 /* @keyframes App-logo-spin {
