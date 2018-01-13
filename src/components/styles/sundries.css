@@ -43,3 +43,27 @@
   max-height: 100%;
   float: left;
 }
+
+.imgCntr {
+  height: 100%;
+  max-height: 100;
+  width: auto;
+
+}
+
+#topImg {
+  /* width-height ratio is .8269 */
+  max-height: 100%;
+}
+
+#midImg{
+  /* width-height ratio is .7856 */
+  max-height: 100%;
+
+}
+
+#btmImg {
+  /* width-height ratio is 1.3341 */
+  max-height: 100%;
+
+}

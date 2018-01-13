@@ -4,7 +4,7 @@
   top: 12.5vh;
   left: 20vw;
   height: 80vh;
-  width: 80vw;
+  width: 76vw;
   float: left;
 }
 
@@ -18,8 +18,18 @@
 }
 
 .colorMatchingView img {
-  margin: 12.5% 0 0 18.725%;
-  height: 50vh;
+  height: auto;
+  max-height: 100%;
+  max-width: 59%;
+  width: auto;
+}
+
+/*  width-height ratio is 65.8/100 */
+#imgCntr {
+  /* border: 2px solid black; */
+  height: 85vh;
+  margin: 0 0 0 15vw;
+  padding: 2vh 0 0 0;
+  text-align: center;
   width: 50vw;
-  border: 5px solid black;
 }

@@ -24,20 +24,23 @@
 }
 
 .locationView .leftColumn {
-  border: 2px solid red;
+  background: teal;
+  /* background: linear-gradient(#007BA7, teal); */
+  box-shadow: -1px 2px 4px 6px silver;
   float: left;
+  color: white;
   font-family: 'Dosis', sans-serif;
   height: 75vh;
-  margin: 5vh 1vw 2vh 0vw;
+  margin: 5vh 1vw 2vh 2vw;
   padding: 0vh 1vw 1vh 0vw;
-  width: 32vw;
+  width: 30vw;
   z-index: 15;
 }
 
 .locationView .leftColumn h4 {
   font-family: 'Titillium Web', sans-serif;
   /* font-size: 1.95rem; */
-  margin: 0 0 1vh 0;
+  margin: 0 0 .5vh 0;
   text-align: center;
   padding: 0;
 }
@@ -49,52 +52,59 @@
   /* font-size: 1.85rem; */
   margin: 0;
   max-width: 100%;
-  padding: .5vh 0 .5vh 0;
-}
-
-.locationView .leftColumn p {
-  /* font-size: 1.7rem; */
+  padding: .5vh 0 0vh 0;
 }
 
 .locationView .hoursContainer {
-  /* border: 2px solid black; */
+  border-right: 1px solid silver;
   float: left;
   font-size: 1.35rem;
-  height: 45vh;
-  margin: 0 0 0 .5vw;
-  padding: 3vh 0 0 0;
+  height: 37.5vh;
+  margin: 4vh 0 0 0;
+  padding: 0vh 2vw 0 2.5vw;
   text-align: center;
-  width: 15.5vw;
+  width: 12vw;
 }
 
-.locationView .leftColumn .hoursContainer h3 {
+.locationView .hoursContainer h3 {
+  border-top: 1px dotted silver;
   text-align: center;
+}
+
+.locationView .hoursContainer p {
+  padding: 0 0 2vh 0;
 }
 
 .locationView .phoneContainer {
   /* border: 2px solid black; */
   float: left;
   font-size: 1.35rem;
-  height: 43vh;
-  margin: 0 0 0 .5vw;
-  padding: 7vh 0 0 0;
+  height: 35vh;
+  margin: 0vh 0 0 0vw;
+  padding: 4vh 0 0 0;
   text-align: center;
-  width: 15.5vw;
+  width: 12.5vw;
 }
 
-.locationView .leftColumn .phoneContainer h3 {
-  margin: .5vh 0 .5vh 0;
-  text-align: center;
+.locationView .phoneContainer p {
+  border-top: 1px dotted silver;
+  margin: 0 10% 2.5vh 15%;
 }
 
 .locationView .addressContainer {
-  border: 2px solid black;
   clear: both;
   font-size: 1.35rem;
   height: 18vh;
-  padding: 2vh 0 0 0;
+  margin: 0 0 0 -.75vw;
+  padding: 3vh 0 0 1vw;
   text-align: center;
-  width: 30vw;
+  width: 30.5vw;
+}
+
+.locationView .addressContainer h4 {
+  border-top: 1px solid silver;
+  margin: 4vh 0 0 0;
+  padding: 3vh 0 0 0;
 }
 
 .locationView .leftColumn .addressContainer h3 {
