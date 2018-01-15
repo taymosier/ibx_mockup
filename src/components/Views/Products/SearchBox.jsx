@@ -12,6 +12,7 @@ export default class SearchBox extends Component {
     this.state = {
       productIndex: 0,
       totalItems: products.length,
+      search: '',
     };
     this.handlePreviousButtonClick = handlePreviousButtonClick.bind(this);
     this.handleNextButtonClick = handleNextButtonClick.bind(this);
@@ -23,12 +24,15 @@ export default class SearchBox extends Component {
     let description = `${products[productIndex].description}`;
     let image = `${products[productIndex].image}`;
     return(
+
       <div className="searchBox">
           {this.state.productIndex === 0
             ? null
             : <PreviousButton handleClick={this.handlePreviousButtonClick}/>
           }
+
           <ActiveProduct id={2} name={productName} description={description} image={image}/>
+
           {this.state.productIndex === (this.state.totalItems-1)
             ? null
             : <NextButton handleClick={this.handleNextButtonClick}/>
