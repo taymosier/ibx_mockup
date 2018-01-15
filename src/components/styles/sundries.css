@@ -1,11 +1,12 @@
 .sundriesView {
-    position: absolute;
-    background: white;
-    height: 80vh;
-    top: 12.5vh;
-    left: 20vw;
-    width: 80vw;
-    float: left;
+  position: absolute;
+  background: white;
+  text-align: center;
+  height: 80vh;
+  top: 12.5vh;
+  left: 20vw;
+  width: 76vw;
+  float: left;
 }
 
 .sundriesView h3 {
@@ -17,53 +18,23 @@
   border-bottom: 1px solid teal;
 }
 
-
-.sundriesContent {
-  width: 90%;
+#topSctn {
+  margin: 5% 0 0 5%;
   height: 50%;
-  margin: 2.5vh 0 0 3.5vw;
+  width: 90%;
+  background: grey;
 }
 
-.sundriesContentSection {
-  margin: 1% 0 0 0;
-  border: 2px solid black;
-  height: 100%;
-  width: 100%;
+#midSctn{
+  margin: 5% 0 0 5%;
+  height: 50%;
+  width: 90%;
+  background: red;
 }
 
-.sundriesContent p {
-  padding: 12.5% 2.5% 0 2.5%;
-  float: left;
-  width: 47.5%;
-  height: 30%;
-  text-align: left;
-}
-.sundriesContent img{
-  width: 47.5%;
-  max-height: 100%;
-  float: left;
-}
-
-.imgCntr {
-  height: 100%;
-  max-height: 100;
-  width: auto;
-
-}
-
-#topImg {
-  /* width-height ratio is .8269 */
-  max-height: 100%;
-}
-
-#midImg{
-  /* width-height ratio is .7856 */
-  max-height: 100%;
-
-}
-
-#btmImg {
-  /* width-height ratio is 1.3341 */
-  max-height: 100%;
-
+#btmSctn {
+  margin: 5% 0 0 5%;
+  height: 50%;
+  width: 90%;
+  background: orange;
 }

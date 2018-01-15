@@ -16,10 +16,11 @@
 
 .footer {
   /* bottom: 0; */
-  top: 118vh;
+  top: 158vh;
   left: 10.75vw;
   font-size: .65rem;
   position: relative;
+  clear: both;
   vertical-align: bottom;
   height: 5vh;
   width: 66vw;

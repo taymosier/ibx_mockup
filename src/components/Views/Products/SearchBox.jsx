@@ -1,30 +1,38 @@
 import React, { Component } from 'react';
+import ActiveProduct from './ActiveProduct.jsx';
+import {PreviousButton} from './PreviousButton.jsx';
+import { NextButton } from './NextButton.jsx';
 import {products} from './ProductList.js';
+import { handlePreviousButtonClick, handleNextButtonClick } from './productFunctions.js';
+
 
 export default class SearchBox extends Component {
   constructor(props){
     super(props);
     this.state = {
-      productId: 2,
-      productName: '',
-      productDescription: '',
+      productIndex: 0,
+      totalItems: products.length,
     };
+    this.handlePreviousButtonClick = handlePreviousButtonClick.bind(this);
+    this.handleNextButtonClick = handleNextButtonClick.bind(this);
   }
 
   render(){
+    let productIndex = this.state.productIndex;
+    let productName = `${products[productIndex].name}`;
+    let description = `${products[productIndex].description}`;
+    let image = `${products[productIndex].image}`;
     return(
       <div className="searchBox">
-        <div className="previousButton"><img src={require("assets/arrow.svg")}/></div>
-        <div className="activeProduct">
-          <div className="activeProductTopColumn">
-            <h1 className="productHeader">{products[this.state.productId].name}</h1>
-            <img className="productPicture" src={require(`assets/productsAssets/p${this.state.productId}.png`)}></img>
-          </div>
-          <div className="activeProductBottomColumn">
-            <p className="productDescription">{products[this.state.productId].description}</p>
-          </div>
-        </div>
-        <div className="nextButton"><img src={require("assets/arrow.svg")}/></div>
+          {this.state.productIndex === 0
+            ? null
+            : <PreviousButton handleClick={this.handlePreviousButtonClick}/>
+          }
+          <ActiveProduct id={2} name={productName} description={description} image={image}/>
+          {this.state.productIndex === (this.state.totalItems-1)
+            ? null
+            : <NextButton handleClick={this.handleNextButtonClick}/>
+          }
       </div>
     );
   }
