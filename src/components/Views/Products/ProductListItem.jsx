@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-const images = require.context('../../../assets', true);
 
+const images = require.context('../../../assets', true);
 
 export class ProductListItem extends Component {
   constructor(props){
@@ -15,11 +15,11 @@ export class ProductListItem extends Component {
     const productImage = images(`./productsAssets/${product.image}`);
 
     return(
-        <li>
-          <div>
-            {product.name}
+        <li className="prdLI">
+          <div className="prdName">
+            <p>{product.name}</p>
           </div>
-          <div>
+          <div className="prdImg">
             <img src={productImage} alt={product.image}/>
           </div>
         </li>

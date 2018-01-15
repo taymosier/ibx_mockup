@@ -35,8 +35,8 @@ export class Products extends Component {
         <img className="productsBanner" src={require("assets/productsAssets/banner.jpg")} height="203px" width="733px" alt="Benjamin Moore Paints" />
         <h3>Products</h3>
         <SearchFilter handleSearch={this.handleSearch}/>
-        <ProductListView products={productSelection}/>
         <SearchBox />
+        <ProductListView products={productSelection}/>
       </div>
     );
   }

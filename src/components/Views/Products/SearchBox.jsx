@@ -28,14 +28,17 @@ export default class SearchBox extends Component {
       <div className="searchBox">
           {this.state.productIndex === 0
             ? null
-            : <PreviousButton handleClick={this.handlePreviousButtonClick}/>
+            // : <PreviousButton handleClick={this.handlePreviousButtonClick}/>
+            : null
           }
 
           <ActiveProduct id={2} name={productName} description={description} image={image}/>
 
           {this.state.productIndex === (this.state.totalItems-1)
             ? null
-            : <NextButton handleClick={this.handleNextButtonClick}/>
+            // : <NextButton handleClick={this.handleNextButtonClick}/>
+            : null
+            
           }
       </div>
     );

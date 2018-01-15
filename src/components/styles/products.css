@@ -21,12 +21,6 @@
   border-bottom: 1px solid teal;
 }
 
-.searchBox {
-  width: 70vw;
-  height: 60vh;
-  margin: 2.5vh 0 0 5vw;
-  padding: 1.5vh 0 0 0;
-}
 
 .previousButton {
   position: absolute;
@@ -65,20 +59,27 @@
   background: green;
 }
 
-.activeProduct {
-  position: absolute;
-  width: 51vw;
-  left: 12.5vw;
-  margin: 5vh 0 0 0;
-  padding: 0vh 0 0 0;
-  height: 90vh;
+.searchBox {
   float: left;
-  border: 2px solid black;
+  height: 60vh;
+  margin: 17.5vh 2.5vw 0 5.5vw;
+  padding: 0;
+  width: 30vw;
+  box-shadow: 0px 1px 2px 5px teal;
+
+}
+
+.activeProduct {
+  width: 100%;
+  margin: 0;
+  padding: 0vh 0 0 0;
+  height: 100%;
+  float: left;
 }
 
 .activeProductTopRow {
   width: 100%;
-  height: 50%;
+  height: 40%;
   margin: 5% 0 0 0;
   /* border: 1px solid green; */
   float:left;
@@ -86,20 +87,22 @@
 
 .productHeader {
   /* border: 1px dotted green; */
-  padding: 7.5% 5% 20% 5%;
+  padding: 7.5% 2.5% 20% 5%;
+  font-family: 'Dosis', sans-serif;
   font-weight: 200;
+  font-size: 1.8rem;
   float: left;
   text-align: center;
   vertical-align: center;
-  width: 40%;
+  width: 37.5%;
   height: 40%;
 }
 
 .productPicture {
   /* border: 1px dotted green; */
   margin: 5% 0 0 0 ;
-  height: 75%;
-  width: 49%;
+  height: 90%;
+  width: 55%;
   float: left;
 }
 
@@ -108,7 +111,7 @@
   float: left;
   text-align: center;
   font-family: 'Bookman';
-  font-size: 1.35rem;
+  font-size: 1.15rem;
   margin: 0;
   padding: 5%;
   width: 90%;
@@ -121,4 +124,53 @@
   width: 100%;
   float: left;
   /* border: 1px dotted red; */
+}
+
+.prdList {
+  box-shadow: 0px 1px 2px 5px teal;
+  margin: 7.5vh 0 0 0;
+  height: 80vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-bottom: 1px solid teal;
+  width: 30vw;
+}
+
+.prdLI {
+  padding: 2%;
+  /* float: left; */
+  height: 15vh;
+  width: 100%;
+  border-bottom: 1px solid teal;
+  /* border: 1px dotted black; */
+}
+
+.prdName {
+  height: 100%;
+  padding: 2% 2% 0 0 ;
+  width: 62%;
+  float: left;
+  /* border: 1px solid green; */
+}
+
+.prdName p {
+  font-family: 'Dosis', sans-serif;
+  margin: 5% 2% 0 5%;
+  font-size: 1.3rem;
+  height: 100%;
+  width: 100%;
+  float: left;
+}
+
+.prdImg {
+  height: 100%;
+  float: left;
+  width: 35%;
+  /* border: 1px solid red; */
+}
+
+.prdImg img{
+  height: 100%;
+  float: left;
+  width: 100%;
 }

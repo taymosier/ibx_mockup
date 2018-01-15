@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { ProductListItem } from './ProductListItem.jsx';
 
-
 export default class ProductListView extends Component {
   constructor(props){
     super(props);
@@ -18,9 +17,8 @@ export default class ProductListView extends Component {
     ));
     console.log('list rendering');
     return(
-      <div>
-        HI
-        <ul>
+      <div className="prdListCntr">
+        <ul className="prdList">
           {productList}
         </ul>
       </div>
