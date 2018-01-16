@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SearchBox from './SearchBox.jsx';
 import SearchFilter from './SearchFilter.jsx';
+import ProductFilterContainer from './ProductFilterContainer.jsx';
 import ProductListView from './ProductListView.jsx';
 import {products} from "./ProductList.js";
 import { handleSearch } from './productFunctions.js';
@@ -34,7 +35,8 @@ export class Products extends Component {
       <div className="productsView">
         <img className="productsBanner" src={require("assets/productsAssets/banner.jpg")} height="203px" width="733px" alt="Benjamin Moore Paints" />
         <h3>Products</h3>
-        <SearchFilter handleSearch={this.handleSearch}/>
+        {/* <SearchFilter handleSearch={this.handleSearch}/> */}
+        <ProductFilterContainer handleSearch={this.handleSearch}/>
         <SearchBox />
         <ProductListView products={productSelection}/>
       </div>

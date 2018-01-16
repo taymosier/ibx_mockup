@@ -24,6 +24,6 @@ export function handleNextButtonClick(e){
 export function handleSearch(e){
   e.preventDefault();
   this.setState({
-    search: e.target.value,
+    search: e.target.value.toLowerCase(),
   })
 }

@@ -11,8 +11,9 @@ export default class SearchFilter extends Component {
   }
   render(){
     return(
-      <div>
-        <input type="text" value={this.state.search} onChange={this.state.handleSearch}></input>
+      <div className='searchFltCntr'>
+        <label className='searchFltLabel'>Search</label>
+        <input className='searchFlt'type="text" value={this.state.search} onChange={this.state.handleSearch}></input>
       </div>
     );
   }
