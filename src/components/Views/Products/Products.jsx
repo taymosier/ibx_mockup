@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import SearchBox from './SearchBox.jsx';
+import ActiveProductContainer from './ActiveProductContainer.jsx';
 import SearchFilter from './SearchFilter.jsx';
 import ProductFilterContainer from './ProductFilterContainer.jsx';
 import ProductListView from './ProductListView.jsx';
 import {products} from "./ProductList.js";
-import { handleSearch } from './productFunctions.js';
+import { handleSearch, updateActiveItem } from './productFunctions.js';
 import '../../styles/products.css';
 
 // TODO
@@ -14,12 +14,10 @@ export class Products extends Component {
     super(props);
     this.state = {
       search: '',
+      productIndex: 0,
     };
     this.handleSearch = handleSearch.bind(this);
-  }
-
-  handleChange(e){
-    this.setState({ search: e.target.value});
+    this.updateActiveItem = updateActiveItem.bind(this);
   }
 
   render(){
@@ -37,8 +35,8 @@ export class Products extends Component {
         <h3>Products</h3>
         {/* <SearchFilter handleSearch={this.handleSearch}/> */}
         <ProductFilterContainer handleSearch={this.handleSearch}/>
-        <SearchBox />
-        <ProductListView products={productSelection}/>
+        <ActiveProductContainer productIndex={this.state.productIndex}/>
+        <ProductListView selectedItemIDToProductsView={this.updateActiveItem} products={productSelection} />
       </div>
     );
   }

@@ -6,11 +6,11 @@ import {products} from './ProductList.js';
 import { handlePreviousButtonClick, handleNextButtonClick } from './productFunctions.js';
 
 
-export default class SearchBox extends Component {
+export default class ActiveProductContainer extends Component {
   constructor(props){
     super(props);
     this.state = {
-      productIndex: 0,
+      productIndex: this.props.productIndex,
       totalItems: products.length,
       search: '',
     };
@@ -19,26 +19,26 @@ export default class SearchBox extends Component {
   }
 
   render(){
-    let productIndex = this.state.productIndex;
+    let productIndex = this.props.productIndex;
     let productName = `${products[productIndex].name}`;
     let description = `${products[productIndex].description}`;
     let image = `${products[productIndex].image}`;
     return(
 
-      <div className="searchBox">
+      <div className="activeProductContainer">
           {this.state.productIndex === 0
             ? null
             // : <PreviousButton handleClick={this.handlePreviousButtonClick}/>
             : null
           }
 
-          <ActiveProduct id={2} name={productName} description={description} image={image}/>
+          <ActiveProduct id={productIndex} name={productName} description={description} image={image}/>
 
           {this.state.productIndex === (this.state.totalItems-1)
             ? null
             // : <NextButton handleClick={this.handleNextButtonClick}/>
             : null
-            
+
           }
       </div>
     );

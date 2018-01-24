@@ -13,7 +13,7 @@ export default class SearchFilter extends Component {
     return(
       <div className='searchFltCntr'>
         <label className='searchFltLabel'>Search</label>
-        <input className='searchFlt'type="text" value={this.state.search} onChange={this.state.handleSearch}></input>
+        <input className='searchFlt' value={this.state.search} onChange={this.state.handleSearch}></input>
       </div>
     );
   }

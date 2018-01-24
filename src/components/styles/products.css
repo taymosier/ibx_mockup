@@ -59,7 +59,7 @@
   background: green;
 }
 
-.searchBox {
+.activeProductContainer {
   background: #FFFAF0;
   float: left;
   height: 60vh;
@@ -67,8 +67,24 @@
   padding: 0;
   width: 30vw;
   box-shadow: 0px 1px 2px 5px teal;
-
+  transition: 1.5s ease-in;
 }
+
+.activeProductContainer:hover {
+  animation: animateActiveItemContainer 1 .33s ease-in normal;
+  background: #AAF0D1;
+}
+
+@keyframes animateActiveItemContainer {
+  from {
+    background: #FFFAF0;
+  }
+
+  to {
+    background: #AAF0D1;
+  }
+}
+
 
 .activeProduct {
   width: 100%;
@@ -99,6 +115,10 @@
   height: 40%;
 }
 
+.productHeader:hover {
+}
+
+
 .productPicture {
   /* border: 1px dotted green; */
   margin: 5% 0 0 0 ;
@@ -113,13 +133,14 @@
   float: left;
   text-align: center;
   font-family: 'Bookman';
-  font-size: 1.08rem;
+  font-size: 1.55rem;
   margin: 0;
   padding: 5%;
   width: 90%;
   height: 45%;
   /* border: 2px solid silver; */
 }
+
 
 .activeProductBottomRow {
   height: 49%;

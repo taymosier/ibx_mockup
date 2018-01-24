@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { ProductListItem } from './ProductListItem.jsx';
+import { passSelectedItemID } from './productFunctions.js';
 
 export default class ProductListView extends Component {
   constructor(props){
@@ -7,15 +8,17 @@ export default class ProductListView extends Component {
     this.state = {
       products: this.props.products,
     }
+    this.passSelectedItemID = passSelectedItemID.bind(this);
   }
   render(){
+
     let products = this.props.products;
     let productList = products.map(product => (
       <ProductListItem
+        selectedItemIDToList = {this.passSelectedItemID}
         product={product}
       />
     ));
-    console.log('list rendering');
     return(
       <div className="prdListCntr">
         <ul className="prdList">
