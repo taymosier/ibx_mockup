@@ -7,8 +7,16 @@ import { setNewActiveView } from './functions/appFunctions.js';
 
 import './styles/App.css';
 
+
 // TODO
-// Adjust width of home page so that horizontal scrollbar is non-existent (adjust width of banner image)
+
+//PRIMARY
+// finish positioning text elements on sundries page
+// select a different font style for sundries page text elements
+// finish positioning images on sundries page
+// remove temporary styling
+
+// SECONDARY
 // Adjust menu button styling
 // Expand size of main home Views
 // change infoComponentBox padding top to .25vh
@@ -24,7 +32,7 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      activeView: 'Products',
+      activeView: 'Sundries',
     };
     this.setNewActiveView = setNewActiveView.bind(this);
   }

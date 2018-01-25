@@ -19,22 +19,109 @@
 }
 
 #topSctn {
-  margin: 5% 0 0 5%;
-  height: 50%;
+  margin: 1.5% 0 0 5%;
+  height: 60%;
   width: 90%;
   background: grey;
 }
 
+#topLeftHalf {
+  float: left;
+  height: 97%;
+  margin: .5% .5% 0 .5%;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.75rem;
+  width: 45%;
+
+  }
+
+#topRightHalf {
+  background: linear-gradient(blue, white);
+  float: left;
+  height: 97%;
+  margin: .5% .5% 0 .5%;
+  width: 49%;
+  }
+
 #midSctn{
-  margin: 5% 0 0 5%;
-  height: 50%;
+  margin: .5% 0 0 5%;
+  height: 60%;
   width: 90%;
   background: red;
 }
 
+#midLeftHalf{
+  float: left;
+  height: 97%;
+  margin: .5% .5% 0 .5%;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.75rem;
+  width: 44.5%;
+}
+
+#midRightHalf{
+  background: linear-gradient(blue, white);
+  float: left;
+  height: 97%;
+  margin: .5% .5% 0 .5%;
+  width: 49%;
+}
+
 #btmSctn {
-  margin: 5% 0 0 5%;
-  height: 50%;
+  margin: .5% 0 0 5%;
+  height: 60%;
   width: 90%;
   background: orange;
+}
+
+#btmLeftHalf{
+  float: left;
+  height: 97%;
+  margin: .5% .5% 0 .5%;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.75rem;
+  width: 44.5%;
+}
+
+#btmRightHalf{
+  background: linear-gradient(blue, white);
+  float: left;
+  height: 97%;
+  margin: .5% .5% 0 .5%;
+  width: 49%;
+}
+
+#topLeftHalf section {
+  height: 90%;
+  padding: 15% 10% 5% 10%;
+
+}
+#midLeftHalf section {
+  height: 90%;
+  padding: 15% 10% 5% 10%;
+
+}
+#btmLeftHalf section {
+  height: 90%;
+  padding: 5%;
+
+}
+
+#topRightHalf img {
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+
+}
+#midRightHalf img {
+  overflow: hidden;`
+  max-width: 100%;
+  max-height: 100%;
+
+}
+#btmRightHalf img {
+  overflow: hidden;`
+  max-width: 100%;
+  max-height: 100%;
+
 }
