@@ -26,6 +26,7 @@ import './styles/App.css';
 // change homePageLinks p padding to 0 4vw 0 4vw
 // change homePageLinks p height to 15vh
 // style map
+
 //
 
 class App extends Component {

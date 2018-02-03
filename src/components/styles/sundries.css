@@ -1,12 +1,13 @@
 .sundriesView {
-  position: absolute;
   background: white;
-  text-align: center;
-  height: 80vh;
-  top: 12.5vh;
-  left: 20vw;
-  width: 76vw;
+  border: 2px solid black;
   float: left;
+  height: 135vh;
+  left: 21vw;
+  position: absolute;
+  text-align: center;
+  top: 12.5vh;
+  width: 75vw;
 }
 
 .sundriesView h3 {
@@ -20,34 +21,32 @@
 
 #topSctn {
   margin: 1.5% 0 0 5%;
-  height: 60%;
+  height: 33%;
   width: 90%;
-  background: grey;
+  background: transparent;
 }
 
-#topLeftHalf {
+#topRightHalf {
   float: left;
   height: 97%;
   margin: .5% .5% 0 .5%;
   font-family: 'Dosis', sans-serif;
-  font-size: 1.75rem;
-  width: 45%;
+  width: 65%;
 
   }
 
-#topRightHalf {
-  background: linear-gradient(blue, white);
+#topLeftHalf {
   float: left;
   height: 97%;
-  margin: .5% .5% 0 .5%;
-  width: 49%;
+  margin: .5% .5% 0 0;
+  width: 30%;
   }
 
 #midSctn{
   margin: .5% 0 0 5%;
-  height: 60%;
+  height: 33%;
   width: 90%;
-  background: red;
+  background: transparent;
 }
 
 #midLeftHalf{
@@ -56,58 +55,57 @@
   margin: .5% .5% 0 .5%;
   font-family: 'Dosis', sans-serif;
   font-size: 1.75rem;
-  width: 44.5%;
+  width: 65%;
 }
 
 #midRightHalf{
-  background: linear-gradient(blue, white);
   float: left;
   height: 97%;
   margin: .5% .5% 0 .5%;
-  width: 49%;
+  width: 30%;
 }
 
 #btmSctn {
   margin: .5% 0 0 5%;
-  height: 60%;
+  height: 33%;
   width: 90%;
-  background: orange;
+  background: transparent;
 }
 
-#btmLeftHalf{
+#btmRightHalf{
   float: left;
   height: 97%;
   margin: .5% .5% 0 .5%;
   font-family: 'Dosis', sans-serif;
   font-size: 1.75rem;
-  width: 44.5%;
+  width: 55%;
 }
 
-#btmRightHalf{
-  background: linear-gradient(blue, white);
+#btmLeftHalf{
   float: left;
-  height: 97%;
+  height: 90%;
   margin: .5% .5% 0 .5%;
-  width: 49%;
+  width: 40%;
 }
 
-#topLeftHalf section {
+#topRightHalf section {
+  font-size: 1.75rem;
   height: 90%;
-  padding: 15% 10% 5% 10%;
+  padding: 10% 2% 2% 5%;
 
 }
 #midLeftHalf section {
   height: 90%;
-  padding: 15% 10% 5% 10%;
+  padding: 7.5% 10% 5% 10%;
 
 }
-#btmLeftHalf section {
+#btmRightHalf section {
   height: 90%;
-  padding: 5%;
+  padding: 2% 5% 5% 5% ;
 
 }
 
-#topRightHalf img {
+#topLeftHalf img {
   overflow: hidden;
   max-width: 100%;
   max-height: 100%;
@@ -119,7 +117,7 @@
   max-height: 100%;
 
 }
-#btmRightHalf img {
+#btmLeftHalf img {
   overflow: hidden;`
   max-width: 100%;
   max-height: 100%;
